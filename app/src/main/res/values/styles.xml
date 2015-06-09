@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Is this the correct way to define a style?  Or is it supposed to be above in the application theme? -->
+    <style name="app_button">
+            <item name="android:layout_width">225dp</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_gravity">center_horizontal</item>
+            <item name="android:height">45dp</item>
+            <item name="android:background">#009688</item>
+            <item name="android:layout_margin">5dp</item>
+            <item name="android:onClick">buttonClickHandler</item>
+        </style>
+        <style name="app_button.special">
+            <item name="android:background">#FF5252</item>
+            <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
